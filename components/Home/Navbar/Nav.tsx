@@ -1,6 +1,7 @@
 import { navLinks } from '@/constants/Constants'
 import Link from 'next/link'
 import React from 'react'
+import { HiBars3BottomRight } from 'react-icons/hi2'
 
 const Nav = () => {
   return (
@@ -17,6 +18,15 @@ const Nav = () => {
                         </Link>
                     )
                 })}
+            </div>
+            {/* Button */}
+            <div className='flex items-center space-x-4'>
+                <button className='md:px-8 md:py-2.5 px-6 py-2 text-white font-semibold text-base bg-blue-700
+                 hover:bg-blue-900 transition-all duration-200 rounded-full'>
+                    Join Now
+                </button>
+                {/* Buger Menu */}
+                <HiBars3BottomRight className='w-9 h-9 text-black cursor-pointer lg:hidden'/>
             </div>
         </div>
     </div>

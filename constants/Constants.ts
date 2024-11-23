@@ -20,12 +20,12 @@ export const navLinks = [
         label:'Testimonial'
     },
     {
-        id:4,
+        id:5,
         url:'#',
         label:'Blog'
     },
     {
-        id:4,
+        id:6,
         url:'#',
         label:'Contact'
     },
