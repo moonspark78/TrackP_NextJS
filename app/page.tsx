@@ -3,7 +3,7 @@ import React from 'react'
 
 const HomePage = () => {
   return (
-    <div className='overflow-hidden'>
+    <div className='overflow-hidden h-[2000px]'>
       <Home/>
     </div>
   )
