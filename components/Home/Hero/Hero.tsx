@@ -3,17 +3,17 @@ import Image from "next/image"
 
 const Hero = () => {
   return (
-    <div className='w-full pt-[15vh] md:pt-[12vh] min-h-screen bg-[#f7f6fb] overflow-y-auto'>
+    <div className='w-full pt-[15vh] md:pt-[20vh] sm:pt-[20vh] min-h-screen bg-[#f7f6fb] overflow-y-auto'>
         <div className='flex justify-center flex-col w-[90%] sm:w-[80%] h-full mx-auto'>
             <div className='grid grid-cols-1 lg:grid-cols-2 items-center gap-12'>
                 {/* Text content */}
                 <div>
                     {/* Top Box */}
-                    <div className='w-full sm:w-fit py-1.5 px-2 md:px-5 rounded-full shadow-md flex flex-wrap items-center justify-center sm:space-x-3 bg-white'>
+                    <div className='w-full sm:w-fit py-1.5 px-2 md:px-5 rounded-full shadow-md flex  items-center justify-center space-x-3 bg-white'>
                         <div className='px-3 py-1 md:px-5 md:py-1 rounded-full bg-blue-700 md:text-base sm:text-sm text-xs text-white'>
                             News
                         </div>
-                        <p className='text-xs sm:text-sm text-center'>
+                        <p className='text-xs sm:text-sm'>
                             We have updated our term & condition policy
                         </p>
                     </div>
