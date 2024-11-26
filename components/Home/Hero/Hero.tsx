@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const Hero = () => {
   return (
-    <div className='w-full pt-[15vh] md:pt-[20vh] sm:pt-[20vh] min-h-screen bg-[#f7f6fb] overflow-y-auto'>
+    <div className='w-full pt-[20vh] md:pt-[20vh] sm:pt-[27vh] min-h-screen bg-[#f7f6fb] overflow-y-auto'>
         <div className='flex justify-center flex-col w-[90%] sm:w-[80%] h-full mx-auto'>
             <div className='grid grid-cols-1 lg:grid-cols-2 items-center gap-12'>
                 {/* Text content */}
