@@ -1,4 +1,5 @@
 import React from 'react'
+import WhyChooseCard from './WhyChooseCard'
 
 const WhyChoose = () => {
   return (
@@ -13,23 +14,26 @@ const WhyChoose = () => {
               title="Create Free Account"
               linkText="Start Earning"
             />
+          </div>
           <div>
             <WhyChooseCard
               image="/images/i2.png"
-              title="Create Free Account"
-              linkText="Start Earning"
+              title="Monitor User Analytics"
+              linkText="Sign up your store"
             />
+          </div>
           <div>
             <WhyChooseCard
               image="/images/i3.png"
-              title="Create Free Account"
-              linkText="Start Earning"
+              title="Safe & Trusted"
+              linkText="Get the App"
             />
+          </div>
           <div>
             <WhyChooseCard
               image="/images/i4.png"
-              title="Create Free Account"
-              linkText="Start Earning"
+              title="Fast Customer Support"
+              linkText="Learn More"
             />
           </div>
         </div>
