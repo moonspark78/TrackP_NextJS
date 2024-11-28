@@ -35,7 +35,19 @@ const AnalyticsFeature = () => {
                   <FaCheckCircle className='text-green-500 mr-2'/>
                   Chat prompt module supported
                 </li>
+                <li className='flex items-center font-semibold'>
+                  <FaCheckCircle className='text-green-500 mr-2'/>
+                  Enjoy unlimited features by paid plan
+                </li>
+                <li className='flex items-center font-semibold'>
+                  <FaCheckCircle className='text-green-500 mr-2'/>
+                  Manage ultimate conversation
+                </li>
               </ul>
+              <button className='mt-8 px-8 py-3 bg-gray-100 text-gray-800 font-semibold rounded-full hover:bg-blue-500
+               transition-all duration-200 hover:text-white'>
+                Explore More &rarr;
+              </button>
             </div>
         </div>
     </div>
