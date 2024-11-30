@@ -49,10 +49,10 @@ const Feature = () => {
             <div className='grid mt-16 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
                 {features.map((feature, index) => (
                     <div key={index} className='flex items-center justify-center p-4 bg-white rounded-lg shadow-md space-x-3'>
-                            <div className='text-3xl w-14 h-14'>
+                            <div className='text-3xl w-14 h-14 bg-gray-800 bg-opacity-10 flex items-center justify-center flex-col  rounded-full'>
                                 <span>{feature.icon}</span>
                             </div>
-                            <span>{feature.text}</span>
+                            <span className='font-semibold'>{feature.text}</span>
                             
                     </div>
                 ))}
