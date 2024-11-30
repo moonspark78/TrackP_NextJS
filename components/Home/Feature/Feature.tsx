@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaCog, FaDesktop, FaLaptop, FaLayerGroup, FaMobileAlt } from 'react-icons/fa'
+import { FaBook, FaCog, FaDesktop, FaHeadset, FaInfinity, FaLaptop, FaLayerGroup, FaMobileAlt, FaShieldAlt } from 'react-icons/fa'
 
 const Feature = () => {
     const features = [
@@ -22,6 +22,22 @@ const Feature = () => {
         {
             icon: <FaCog className='text-teal-500'/>,
             text: "Customizable Features",
+        },
+        {
+            icon: <FaHeadset className='text-green-500'/>,
+            text: "Humanly Support",
+        },
+        {
+            icon: <FaInfinity className='text-pink-500'/>,
+            text: "Lifetime Updates",
+        },
+        {
+            icon: <FaBook className='text-indigo-500'/>,
+            text: "Rich Documentation",
+        },
+        {
+            icon: <FaShieldAlt className='text-orange-500'/>,
+            text: "Enhanced Security",
         },
     ]
   return (
