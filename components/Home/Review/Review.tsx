@@ -1,6 +1,9 @@
+"use client";
+
 import React from 'react'
-import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import ReviewCard from './ReviewCard';
+import Carousel from "react-multi-carousel";
 
 const responsive = {
     desktop: {
@@ -32,12 +35,15 @@ const Review = () => {
             <Carousel
                 arrows={false}
                 autoPlay={true}
-                autoPlaySpeed={2000}
+                autoPlaySpeed={1570}
                 infinite
                 responsive={responsive}
                 showDots
             >
-
+                <ReviewCard name="Jessy Doe" image="/images/c1.png"/>
+                <ReviewCard name="Rolla tar" image="/images/c2.png"/>
+                <ReviewCard name="Elise Tein" image="/images/c1.png"/>
+                <ReviewCard name="Alain Roeoe" image="/images/c2.png"/>
             </Carousel>
         </div>
     </div>
