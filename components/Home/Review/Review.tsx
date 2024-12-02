@@ -35,7 +35,7 @@ const Review = () => {
             <Carousel
                 arrows={false}
                 autoPlay={true}
-                autoPlaySpeed={1570}
+                autoPlaySpeed={1520}
                 infinite
                 responsive={responsive}
                 showDots
