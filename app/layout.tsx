@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import {Roboto} from "next/font/google"
 import "./globals.css";
 import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
+import Footer from "@/components/Home/Footer/Footer";
 
 /* const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -36,6 +37,7 @@ export default function RootLayout({
       <body className={`${font.className} antialiased`}>
         <ResponsiveNav/>
           {children}
+        <Footer/>
       </body>
     </html>
   );
