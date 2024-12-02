@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaClock, FaEnvelope, FaMapMarked, FaMapMarkedAlt, FaPhoneAlt } from 'react-icons/fa'
+import { FaClock, FaEnvelope, FaMapMarkedAlt, FaPhoneAlt } from 'react-icons/fa'
 
 const Footer = () => {
   return (
