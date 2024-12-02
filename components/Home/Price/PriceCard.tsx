@@ -57,6 +57,13 @@ const PriceCard = ({plan, price}:Props) => {
                     Lifetime Updates
                 </p>
             </div>
+            {/* Button  */}
+            <div className='mt-8'>
+                <button className='block w-full p-4 text-base md:text-lg text-white font-bold hover:bg-blue-950 transition-all
+                 duration-300 bg-blue-900'>
+                    Start 14 Days Free Trial
+                </button>
+            </div>
         </div>
     </div>
   )
